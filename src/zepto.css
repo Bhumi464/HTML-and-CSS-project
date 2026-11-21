@@ -1,0 +1,446 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+/* Header */
+.head {
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Main Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    gap: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.left img {
+    width: 100px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.center {
+    flex: 1;
+}
+
+.center input {
+    width: 100%;
+    max-width: 600px;
+    padding: 13px 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+.center input:focus {
+    border: 1px solid #8000ff;
+    background-color: white;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right a:hover {
+    color: #8000ff;
+}
+
+/* Category Navigation */
+.items {
+    padding: 15px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.matter ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+    overflow-x: auto;
+}
+
+.matter ul li {
+    white-space: nowrap;
+}
+
+.matter ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: 0.3s;
+}
+
+.matter ul li a:hover {
+    color: #8000ff;
+    border-bottom: 3px solid #8000ff;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Shop by Category */
+.shop1 {
+    padding: 20px 30px;
+}
+
+.shop1 h3 {
+    font-size: 23px;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+/* Different Category Backgrounds */
+/* Different colors for Shop by Category */
+.cate .a {
+    background-color: #dff5e1;
+}
+
+.cate .b {
+    background-color: #ffe8d6;
+}
+
+.cate .c {
+    background-color: #e8ddff;
+}
+
+.cate .d {
+    background-color: #ffdede;
+}
+
+.cate .e {
+    background-color: #fff1c9;
+}
+
+.cate .f {
+    background-color: #dceeff;
+}
+
+/* Laundry Care and Cleaning Essentials */
+.care,
+.clean,
+.cate{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+    list-style: none;
+}
+
+.care li,
+.clean li,
+.cate li {
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.care li:hover,
+.clean li:hover,
+.cate li:hover {
+    box-shadow: 0 3px 10px #ddd;
+    transform: translateY(-4px);
+}
+
+.care li img,
+.clean li img,
+.cate li img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.care li a,
+.clean li a,
+.cate li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.care li a:hover,
+.clean li a:hover,
+.cate li a:hover {
+    color: #8000ff;
+}
+
+.care .g {
+    background-color: #dff5e1;
+}
+
+.care .h {
+    background-color: #ffe8d6;
+}
+
+.care .i {
+    background-color: #e8ddff;
+}
+
+.care .j {
+    background-color: #ffdede;
+}
+
+.care .k {
+    background-color: #fff1c9;
+}
+
+.clean .l {
+    background-color: #dceeff;
+}
+
+.clean .m {
+    background-color: #fce4ec;
+}
+
+.clean .n {
+    background-color: #e0f7fa;
+}
+
+.clean .o {
+    background-color: #f3e5f5;
+}
+
+.clean .p {
+    background-color: #e8f5e9;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: #f5f5f5;
+    padding: 40px 50px;
+    margin-top: 30px;
+}
+
+/* Left Footer */
+.left-footer {
+    width: 40%;
+}
+
+.left-footer h2 {
+    font-size: 28px;
+    color: #8000ff;
+    margin-bottom: 20px;
+}
+
+.left-footer a {
+    display: inline-block;
+    color: #444;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.left-footer a:hover {
+    color: #8000ff;
+}
+
+.left-footer p {
+    font-size: 13px;
+    color: #777;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/* Center Footer */
+.center-footer {
+    width: 30%;
+}
+
+.center-footer ul {
+    list-style: none;
+}
+
+.center-footer ul li {
+    margin-bottom: 15px;
+}
+
+.center-footer ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+}
+
+.center-footer ul li a:hover {
+    color: #8000ff;
+}
+
+/* Right Footer */
+.right-footer {
+    width: 25%;
+}
+
+.right-footer h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.right-footer button {
+    display: block;
+    width: 180px;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.right-footer button a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right-footer button:hover {
+    background-color: #8000ff;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1000px) {
+    .cate {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .care,
+    .clean {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .matter ul {
+        justify-content: flex-start;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 12px 15px;
+        gap: 15px;
+    }
+
+    .left img {
+        width: 80px;
+    }
+
+    .center {
+        order: 3;
+        flex-basis: 100%;
+    }
+
+    .right {
+        gap: 15px;
+    }
+
+    .items {
+        padding: 12px 15px;
+    }
+
+    .matter ul {
+        gap: 20px;
+    }
+
+    .banner {
+        padding: 15px;
+    }
+
+    .banner img {
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .shop1 {
+        padding: 15px;
+    }
+
+    .shop1 h3 {
+        font-size: 20px;
+    }
+
+    .cate {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .cate li {
+        min-height: 160px;
+    }
+
+    .cate li img {
+        height: 100px;
+    }
+
+    .care,
+    .clean {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .care li img,
+    .clean li img {
+        height: 130px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 25px;
+    }
+
+    .left-footer,
+    .center-footer,
+    .right-footer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,90 @@
+.order{
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    display: flex;
+    gap: 50px;
+}
+.order li{
+    color: blueviolet;
+    width: 50px;
+}
+#cart{
+    border: 5px solid palevioletred;
+    padding: 10px;
+    text-align: center;
+}
+.table{
+    border-style: double;
+}
+.table td, th{
+    border-style: double;
+}
+
+.form {
+    background-color: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form p {
+    text-align: center;
+    color: gray;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4b49ac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #33318c;
+}
+
+a {
+    color: #4b49ac;
+    text-decoration: none;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.gender input {
+    width: auto;
+    margin: 0;
+}
+
+.gender label {
+    margin: 0;
+}

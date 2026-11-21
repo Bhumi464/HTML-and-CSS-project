@@ -1,0 +1,21 @@
+h2{
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000;
+    border: 2px solid blue;
+}
+*{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+}
+#one{
+    border: 5px solid red;
+    border-left: 5px solid aqua;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+}
