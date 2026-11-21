@@ -64,7 +64,7 @@ body {
 .products {
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 35px 20px;
     padding: 28px 30px;
     align-content: start;
